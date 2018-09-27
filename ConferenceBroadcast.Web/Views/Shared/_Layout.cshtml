@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Rapid Response - Conferencing and Broadcasting Kit</title>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <i class="fa fa-plus"></i>
+            <h1> Rapid Response Kit </h1>
+            <p>Instantly communicate with all of your volunteers.</p>
+        </div>
+        @RenderBody()
+    </div>
+
+    <footer>
+        Made with <i class="fa fa-heart"></i> by your pals
+        <a href="http://www.twilio.com" class="red">@@twilio</a>
+    </footer>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
